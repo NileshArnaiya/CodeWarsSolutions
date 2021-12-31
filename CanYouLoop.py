@@ -10,3 +10,20 @@
 # Thanks to shadchnev, I broke all of the methods from the Hash class.
 
 # Don't miss dmitry's article in the discussion after you pass the Kata !! 
+# I couldn't figure this one out. 
+
+def loop_size(node):
+    size = 0
+    onestep = node
+    twostep = node.next
+    while(onestep != twostep):
+        twostep = twostep.next.next
+        onestep = onestep.next
+    #we are inside the loop
+    #onestep == twostep
+    onestep = onestep.next
+    size += 1
+    while(onestep != twostep):
+        size += 1
+        onestep = onestep.next
+    return size
