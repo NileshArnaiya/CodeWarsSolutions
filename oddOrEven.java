@@ -16,7 +16,7 @@
 // Output: "even"
 
 
-class Solution {
+class oddOrEven {
   public static String camelCase(String input) {
     
         String newStr = input.replaceAll("\\d+", "").replaceAll("(.)([A-Z])", "$1 $2");

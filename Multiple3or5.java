@@ -6,7 +6,7 @@
 
 // Courtesy of projecteuler.net (Problem 1)
 
-public class Solution {
+public class Multiple3or5 {
 
   public int solution(int number) {
     //TODO: Code stuff here

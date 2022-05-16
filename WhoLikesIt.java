@@ -8,7 +8,7 @@
 // ["Max", "John", "Mark"]           -->  "Max, John and Mark like this"
 // ["Alex", "Jacob", "Mark", "Max"]  -->  "Alex, Jacob and 2 others like this"
 
-class Solution {
+class WhoLikesIt {
     public static String whoLikesIt(String... names) {
         //Do your magic here
         if(names.length==0){

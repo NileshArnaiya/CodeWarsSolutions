@@ -8,7 +8,7 @@
 
 // twoSum [1, 2, 3] 4 === (0, 2)
 
-public class Solution
+public class TwoSum
 {
   
   public static int[] twoSum(int[] numbers, int target) {

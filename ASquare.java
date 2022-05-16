@@ -1,4 +1,4 @@
-public class Square {    
+public class ASquare {
     public static boolean isSquare(int n) {     
         if(n<0){
           return false;

@@ -3,7 +3,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class Kata {
+public class sortTheOdd {
   public static int[] sortArray(int[] array) {
     // loop through all odd numbers
         // add to seperate lists of odds and their indices

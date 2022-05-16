@@ -8,7 +8,7 @@
 // XO("zpzpzpp") => true // when no 'x' and 'o' is present should return true
 // XO("zzoo") => false
 
-public class XO {
+public class ExesAndOhs {
   
   public static boolean getXO (String str) {
     

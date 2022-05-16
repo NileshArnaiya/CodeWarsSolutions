@@ -2,7 +2,7 @@
 
 // Examples: spinWords( "Hey fellow warriors" ) => returns "Hey wollef sroirraw" spinWords( "This is a test") => returns "This is a test" spinWords( "This is another test" )=> returns "This is rehtona test"
 
-public class SpinWords {
+public class MirrorType {
 
   public String spinWords(String sentence) {
     //TODO: Code stuff here

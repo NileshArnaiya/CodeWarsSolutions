@@ -1,5 +1,5 @@
 import java.util.*;
-public class DirReduction {
+public class DirectionsReduction {
     public static String[] dirReduc(String[] arr) {
         // Your code here.
         //        ArrayList<String> list = new ArrayList<>();
